@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2021/6/19 2:44 下午
-# @Author  : Haonan Wang
-# @File    : Config.py
-# @Software: PyCharm
 import os
 import torch
 import time
@@ -43,7 +38,7 @@ model_name = 'UC_Res_Swin_ECA'
 #model_name = 'skip5'
 
 train_dataset = './datasets/'+ task_name+ '/Train_Folder/'
-val_dataset = './datasets/'+ task_name+ '/Test_Folder/'
+val_dataset = './datasets/'+ task_name+ '/Val_Folder/'
 test_dataset = './datasets/'+ task_name+ '/Test_Folder/'
 session_name       = 'Test_session' + '_' + time.strftime('%m.%d_%Hh%M')
 save_path          = task_name +'/'+ model_name +'/' + session_name + '/'
