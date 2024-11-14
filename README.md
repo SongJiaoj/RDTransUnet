@@ -1,7 +1,7 @@
 # RDTransUnet
 Improve the accuracy of image segmentation through residual connection and attention mechanism
 # Requirements
-Install from the using:requirements.txt
+Install from the using:`requirements.txt`
 ```
 pip install -r requirements.txt
 ```
